@@ -1,13 +1,10 @@
-const firstName = 'First';
-const lastName = 'Last';
-const title = 'Title/Occupation'
-const pronouns = 'They/Them'
+const firstName = 'Edwin';
+const lastName = 'W';
+const title = 'Developer'
+const pronouns = 'He/Him'
 const showPronouns = true;
-const aboutMe = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, ullam laborum reprehenderit dolorem temporibus nesciunt modi facere sequi veritatis alias accusantium assumenda fuga reiciendis? Fuga quidem laudantium maxime minima libero non itaque perspiciatis possimus placeat est aliquam, iusto minus, maiores tenetur! Quasi explicabo expedita maiores odit necessitatibus ipsa officiis similique.'
-const facebookUrl = 'https://facebook.com'
-const twitterUrl = 'https://twitter.com'
-const instagramUrl = 'https://instagram.com'
-const mcmUrl = 'https://www.mc-market.org/members/23919/'
+const aboutMe = 'Potatis#9133'
+const mcmUrl = 'https://builtbybit.com/members/potatis144.270606/'
 
 window.onload = function(){ 
 
@@ -23,7 +20,4 @@ window.onload = function(){
     }
 
     document.getElementById("mcmUrl").setAttribute("href",mcmUrl);
-    document.getElementById("facebookUrl").setAttribute("href",facebookUrl);
-    document.getElementById("instagramUrl").setAttribute("href",instagramUrl);
-    document.getElementById("twitterUrl").setAttribute("href",twitterUrl);
 }
